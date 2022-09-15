@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(34,34,34);
+  color: white;
+  max-width: 1200px; min-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*inicio header*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li{
+  margin: 0px;
+  
+}
+
+a{
+  color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+a:hover{
+  color: rgb(132,14,201);
+  transition: 0.3s all;
+}
+
+#cadastro{
+  border: 2px solid rgb(132,14,201);
+  border-radius: 15px;
+  
+}
+
+#cadastro:hover{
+  color: white;
+  background-color: rgb(132,14,201);
+}
+/*fim header*/
+
+main{
+  display: flex;
+  width: 100%;height: 100%;
+}
+
+#inscricao{
+  width: 50%;
+}
+
+h2{
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+#h2-parte-1{
+  color: rgb(132,14,201);
+}
+
+p{
+  margin-bottom: 25px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 60%;
+}
+
+input{
+  border: 1px solid;
+  border-radius: 15px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+input::first-letter{
+  margin-left: 30px;
+}
+
+#enviar{
+  max-width: 50%;
+  background-color: rgb(132,14,201);
+}
+
+img{
+  width: 50%;
+  height: 100%;
+}
